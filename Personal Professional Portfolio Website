@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    
+    <header>
+
+        <h1>Nishant Kumar</h1>
+        <p>Web Developer | Fronted Learner</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="nishantkumar.jpg" alt="" width="200" height="200">
+        <p>
+            Hello! I am a passionate web developer with a love for creating clean and functional websites.
+            I specialize in HTML, CSS, and JavaScript, and enjoy learning new technologies to improve my skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h3>JavaScript</h3>
+    </section>
+
+     <section id="contact">
+        <h2>Contact</h2>
+        <p>Email:nk7824401@gmail.com </p>
+        <p>Phone:- 9128486735</p>
+        <br>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Message"></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.jpg" download class="btn">Download My Resume</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Developer Portfolio of Nishant Kumar">
+    <title>Nishant Kumar | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1> Nishant Kumar </h1>
+        <p>Web Developer | Fronted Learner</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am learning HTML, CSS,JavaScript and Building projects</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message"></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+        </section>
+
+        <footer> 
+            <p>@ 2026 Nishant Kumar</p>
+        </footer>
+    <script src="portfolio.js"></script>
+    
+
+</body>
+</html>-->
